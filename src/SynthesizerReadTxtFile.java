@@ -29,7 +29,7 @@ public class SynthesizerReadTxtFile {
  * [X] - воспроизводить MIDI-файлы (в гугле легко находятся MIDI-файлы и код как их воспроизводить с помощью джавы)
  */
 
-    public static void read (String path) throws MidiUnavailableException, InvalidMidiDataException, InterruptedException, IOException {
+    public static void playTxtFile (String path) throws MidiUnavailableException, InvalidMidiDataException, InterruptedException, IOException {
         /*
          * ShortMessage myMsg = new ShortMessage();
          * //Play the note Middle C (60) moderately loud
